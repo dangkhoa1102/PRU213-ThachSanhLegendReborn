@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 85af1138d827f214bbc0dac364435bc2
+guid: b1ab522b86bfeb34dadc74c593459a93
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4130852377688627092
-    second: MainMountain_0
+      213: 5447863933950748601
+    second: OakTree1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MainMountain_0
+      name: OakTree1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 256
+        x: 5
+        y: 2
+        width: 121
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c68aa4016a34ca6c0800000000000000
-      internalID: -4130852377688627092
+      spriteID: 9b7ebc74263ba9b40800000000000000
+      internalID: 5447863933950748601
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MainMountain_0: -4130852377688627092
+      OakTree1_0: 5447863933950748601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

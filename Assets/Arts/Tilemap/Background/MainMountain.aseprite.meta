@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d45b2518361ca8f4dae3fb9d7adfbfa5
+guid: c55e4164efe5dc945a598abd28d08497
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -36,7 +36,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 32
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638956309773324710
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Mountain1
+  - name: MainMountain
     originalName: 
-    pivot: {x: 1.1542857, y: 0}
+    pivot: {x: 0.43495932, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 175
-      height: 55
-    spriteID: d2898bc9077746347b4a2f5e2c82947d
+      width: 246
+      height: 108
+    spriteID: 379db48f24628dd41adb0b52bb9e2c2f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -147,75 +147,39 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: -145, y: 4}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 4086415816
+      value0: 1896054904
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Mountain1
+    name: MainMountain
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Mountain1
+    - name: MainMountain
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 54
+        x: 0
         y: 0
-        width: 175
-        height: 55
-      spriteId: d2898bc9077746347b4a2f5e2c82947d
+        width: 512
+        height: 256
+      spriteId: 379db48f24628dd41adb0b52bb9e2c2f
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
   tileSets: []
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 512, y: 256}
-  previousTextureSize: {x: 256, y: 64}
+  previousTextureSize: {x: 256, y: 128}

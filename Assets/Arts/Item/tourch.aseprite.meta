@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d45b2518361ca8f4dae3fb9d7adfbfa5
+guid: 2a62e61ded78dee498c10346371a9250
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638956309773324710
+  platformSettingsDirtyTick: 638956451766887919
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Mountain1
+  - name: tourch
     originalName: 
-    pivot: {x: 1.1542857, y: 0}
+    pivot: {x: 0.6666667, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 175
-      height: 55
-    spriteID: d2898bc9077746347b4a2f5e2c82947d
+      width: 6
+      height: 15
+    spriteID: 2ef0b28c402c0a6449ff73cfe0eb1a3a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 4086415816
+      value0: 1031941303
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Mountain1
+    name: tourch
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Mountain1
+    - name: tourch
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 54
+        x: 12
         y: 0
-        width: 175
-        height: 55
-      spriteId: d2898bc9077746347b4a2f5e2c82947d
+        width: 6
+        height: 15
+      spriteId: 2ef0b28c402c0a6449ff73cfe0eb1a3a
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -217,5 +217,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 512, y: 256}
-  previousTextureSize: {x: 256, y: 64}
+  canvasSize: {x: 32, y: 32}
+  previousTextureSize: {x: 16, y: 32}

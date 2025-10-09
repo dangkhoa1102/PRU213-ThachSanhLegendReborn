@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d45b2518361ca8f4dae3fb9d7adfbfa5
+guid: ff59d0e3e75a70649b1f289b9789525f
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638956309773324710
+  platformSettingsDirtyTick: 638955263926607485
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Mountain1
+  - name: Frame_0
     originalName: 
-    pivot: {x: 1.1542857, y: 0}
+    pivot: {x: 0.4754098, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 175
-      height: 55
-    spriteID: d2898bc9077746347b4a2f5e2c82947d
+      width: 122
+      height: 127
+    spriteID: 2010e82f588a3734ba4abcbc6e75e8eb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,30 +148,90 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Frame_1
+    originalName: 
+    pivot: {x: 0.4754098, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 139
+      width: 122
+      height: 127
+    spriteID: 334045fd0434b5041b23945735669b75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 139}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.4754098, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 274
+      width: 122
+      height: 126
+    spriteID: ac7576669138d314fb8b82484190bd33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 274}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 4086415816
+      value0: 2573263423
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Mountain1
+    name: OakTree
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Mountain1
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 54
+        x: 6
         y: 0
-        width: 175
-        height: 55
-      spriteId: d2898bc9077746347b4a2f5e2c82947d
+        width: 122
+        height: 127
+      spriteId: 2010e82f588a3734ba4abcbc6e75e8eb
+    - name: Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 122
+        height: 127
+      spriteId: 334045fd0434b5041b23945735669b75
+    - name: Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 122
+        height: 126
+      spriteId: ac7576669138d314fb8b82484190bd33
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -217,5 +277,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 512, y: 256}
-  previousTextureSize: {x: 256, y: 64}
+  canvasSize: {x: 128, y: 128}
+  previousTextureSize: {x: 256, y: 512}

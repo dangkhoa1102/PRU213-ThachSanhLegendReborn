@@ -78,7 +78,7 @@ Material:
     - _EnableExternalAlpha: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionStrength: 2
+    - _RefractionStrength: 3
     - _WaterSpeed: 0.09
     - _ZWrite: 0
     m_Colors:
