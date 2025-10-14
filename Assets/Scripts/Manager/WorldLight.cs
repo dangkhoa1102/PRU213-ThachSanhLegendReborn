@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
 [RequireComponent(typeof(Light2D))]
@@ -12,9 +12,9 @@ public class WorldLight : MonoBehaviour
     private WorldTime _worldTime;
 
     [Header("Color Settings")]
-    [Tooltip("m�u n?n b?u tr?i")]
+    [Tooltip("màu nền bầu trời")]
     public Gradient _skyColor;
-    [Tooltip("m�u �nh s�ng ")]
+    [Tooltip("màu ánh sáng ")]
     public Gradient _lightGradient;
 
     private void Awake()

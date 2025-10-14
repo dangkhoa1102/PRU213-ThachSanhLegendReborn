@@ -31,7 +31,7 @@ public class DayNightController : MonoBehaviour
         if (globalLight)
         {
             globalLight.color = lightColor.Evaluate(t);
-            globalLight.intensity = Mathf.Lerp(1f, 0.2f, Mathf.Sin(t * Mathf.PI)); // sáng→tối
+            //globalLight.intensity = Mathf.Lerp(1f, 0.2f, Mathf.Sin(t * Mathf.PI)); // sáng→tối
         }
 
         if (skySprite)
